@@ -5,7 +5,7 @@
 
 我们研发的AutoML创新性地提出[集成贝叶斯优化策略](#Higher-Performance-for-AutoML:-The Benefit-of-Various-Ensemble-Bayesian-Optimization-Strategy)，通过对多个代理模型进行结果优化，在更早的迭代周期内就能找到全局最优解。相关成果获得NIPS 2020黑盒优化竞赛第四名（https://bbochallenge.com/leaderboard/）。    
 
-## Higher Performance for AutoML: The Benefit of Various Ensemble Bayesian Optimization Strategy
+## #Higher Performance for AutoML: The Benefit of Various Ensemble Bayesian Optimization Strategy
 文章链接：https://valohaichirpprod.blob.core.windows.net/papers/duxiaoman.pdf  
 文章简介：  
 在AutoML任务中，基于贝叶斯优化(BO)的方法在超参数优化方面表现出了极大的有效性。这些方法大多只使用一个模式，但每个模型都存在共通的局限性:1)容易得到次优解;2)在满足高维特征时，优化模型耗时较长。为了使AutoML任务得到更好的结果，本文提出了不同的集成贝叶斯模型，并尝试对这些模型进行探索，这些模型采用了不同代理模型融合其优点，使这些模型相互补充，缓解单一模型上的局限性。  
