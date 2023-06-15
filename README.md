@@ -10,3 +10,5 @@
 **文章简介**：  
 在AutoML任务中，基于贝叶斯优化(BO)的方法在超参数优化方面表现出了极大的有效性。这些方法大多只使用一个模式，但每个模型都存在共通的局限性:1)容易得到次优解;2)在满足高维特征时，优化模型耗时较长。为了使AutoML任务得到更好的结果，本文提出了不同的集成贝叶斯模型，并尝试对这些模型进行探索，这些模型采用了不同代理模型融合其优点，使这些模型相互补充，缓解单一模型上的局限性。  
 **相关代码**：[bbo_challenge_4th](https://github.com/SupUnicorn/bbo_challenge_4th)
+![主要算法](https://raw.githubusercontent.com/Duxiaoman-DI/public-achievements-on-ML/main/highperformance.PNG)
+
